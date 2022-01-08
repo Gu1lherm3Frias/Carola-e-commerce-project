@@ -1,0 +1,44 @@
+
+header {
+    background-color: var(--color-secondary-dark);
+    box-shadow: 0px 0px 1.0em var(--color-primary-dark);
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    
+    justify-content: center;
+}
+nav li a{
+    color: var(--color-primary-white);
+    margin: 2.0rem;
+    text-decoration: none;
+    font-family: "Satisfy", sans-serif;
+    font-size: 1.4rem;
+    align-items: center;
+}
+ul > li:nth-child(1) {
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary-gold);
+}
+.logo {
+    color: var(--color-primary-white);
+    font-family: "Satisfy", sans-serif;
+    font-size: 3.6em;
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary-gold);
+
+}
+
+.log-sgn > img {
+
+    margin-right: 4.0rem;
+    width: 2.0rem;
+    height: 2.0rem;
+}
