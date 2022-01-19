@@ -1,14 +1,15 @@
 :root {
     --color-primary-white: #fff;
-    --color-secondary-white: #757373;
-    --color-primary-gold: #D3A76E;
+    --color-primary-blue: #72e0ff;
+    --color-secondary-blue:#55a7be; 
     --color-primary-dark: #000;
-    --color-secondary-dark: #292828;
-
+    --color-secondary-dark: #6d6868;
+    --color-third-dark: #3b3a3a;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
